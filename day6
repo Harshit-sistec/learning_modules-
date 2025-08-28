@@ -1,0 +1,17 @@
+// App.jsx
+import ProfileCard from './ProfileCard';
+
+function App() {
+  return (
+    <ProfileCard
+      name="Harshit Dubey"
+      role="BTech Student | Hackathon Enthusiast"
+      avatar="https://via.placeholder.com/400x300.png?text=Harshit"
+      bio="Passionate about building future-ready tech. Loves AI, IoT, and disruptive innovation."
+      links={[
+        { label: 'GitHub', url: 'https://github.com/harshitdubey' },
+        { label: 'LinkedIn', url: 'https://linkedin.com/in/harshitdubey' },
+      ]}
+    />
+  );
+}
